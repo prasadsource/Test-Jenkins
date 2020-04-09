@@ -13,6 +13,7 @@ public class SpringBootHelloWorldApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootHelloWorldApplication.class, args);
 		logger.info(".....*****Hi I am Main Method**********");
+		logger.info("Pipeline Test application.");
 	}
 	@PostConstruct
 	public void init()
